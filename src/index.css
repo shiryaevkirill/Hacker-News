@@ -5,9 +5,22 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: '#f6f6ef';
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+li.news:hover{
+  /* border-color: #4096ff; */
+  border: solid 1px #4096ff;
+}
+
+li {
+  list-style-type: none; 
+ }
+ ul {
+  margin-left: 0; 
+ }
